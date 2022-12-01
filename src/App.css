@@ -1,0 +1,16 @@
+body {
+  background: rgb(252, 245, 252);
+}
+
+.App-header {
+  max-width: 600px;
+  display: block;
+  margin: 30px;
+  margin: 0 auto;
+}
+
+.App-footer {
+  max-width: 600px;
+  text-align: center;
+  margin: 30px auto;
+}

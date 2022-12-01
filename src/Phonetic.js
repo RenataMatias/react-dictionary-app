@@ -1,4 +1,5 @@
 import React from "react";
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
   if (props.phonetic.audio && props.phonetic.text) {
@@ -8,7 +9,7 @@ export default function Phonetic(props) {
           Listen
         </a>
         <br />
-        {props.phonetic.text}
+        <p>{props.phonetic.text}</p>
       </div>
     );
   } else {

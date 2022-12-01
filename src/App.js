@@ -6,8 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset" />
       </header>
+      <footer className="App-footer">Coded by Renata Matias</footer>
     </div>
   );
 }
